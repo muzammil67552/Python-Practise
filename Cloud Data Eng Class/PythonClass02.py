@@ -44,3 +44,26 @@ elif gender == "Female" and martial_status == "yes":
     print("You can Work In Urban areas Only")
 else:
     print("error")
+
+
+# condition 1 or  condition 2 (any one condition should be true) - freshness
+# condition 1 and condition 2 (both condition should be  true) -All Vigitables
+
+
+# List Topic
+#list Of COuntries
+
+countries = [
+    "Pakistan",
+    "India",
+    "Bangladesh",
+    "Sri Lanka",
+    "Nepal",
+    "Bhutam"
+]
+
+print(countries)
+
+countries.append("Ausis")
+
+
