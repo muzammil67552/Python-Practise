@@ -15,3 +15,32 @@ elif mark <25:
     print("F")
 else:
     print("Invalid number")
+
+## Write a Program For Checking Three Input That Is Age , gender and martial status for thier job in respectives areas
+
+gender = input("Enter Your Gender M/F:")
+age = int(input("Enter Your Age:"))
+martial_status = input("Enter Your Martial Status")
+
+if gender == "F":
+    print("You can work Only in Urban areas")
+elif age >=20 and age <=40:
+    print("You can work anyWhere")
+elif age > 40 and age <=60 :
+    print ("YOu can Work Any Where")
+else:
+    print("error")
+
+
+# More on Python
+
+age = int (input("Enter Your age :"))
+gender = input("enter Gender M/F:")
+martial_status= input("Enter YOur Martial Status Y/ :")
+
+if gender == "Male" and age >=20 and age<=40:
+    print("You Can work anyWhere")
+elif gender == "Female" and martial_status == "yes":
+    print("You can Work In Urban areas Only")
+else:
+    print("error")
