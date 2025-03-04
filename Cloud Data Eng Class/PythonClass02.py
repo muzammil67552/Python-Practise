@@ -91,7 +91,14 @@ print(list_of_cities[2:]) # it will print from second Element Till last Element
 # Deleting and Removing Elements From The List
 
 list_of_brands = ["apple", "sumsung", "nokia", "hwawei", "oppo", "vivo", "realme"] 
+del list_of_brands[0]
+del list_of_brands[1]
 print(list_of_brands)
+
+## Removing
+
+list  = [1,2,3,4,5]
+list.remove(1)
 
 
 
